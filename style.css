@@ -8,3 +8,23 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: hsl(0, 0%, 98%);
 }
+
+header {
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(34, 57, 90);
+}
+
+.container {
+    display: flex;
+   /* flex-wrap: wrap;*/
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1140px;
+}
